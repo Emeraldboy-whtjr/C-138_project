@@ -1,0 +1,39 @@
+body{
+    background-image : url("actualBackground.png");
+}
+
+#canvas{
+    border-width: 5px;
+
+}
+
+.header{
+    text-align: left;
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgb(255, 102, 0);
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    padding: 5px;
+    height: 50px;
+}
+
+.header h1{
+    display: inline;
+    margin-left: 5px;
+}
+
+.header button{
+    float: right;
+    border: 2px solid white;
+    margin-right: 10px;
+    font-size: large;
+
+}
+
+#startBtn , #status{
+    font-size: large;
+    display: inline;
+}
