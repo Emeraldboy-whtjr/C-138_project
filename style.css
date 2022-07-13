@@ -37,3 +37,18 @@ body{
     font-size: large;
     display: inline;
 }
+
+#restart_btn{
+    font-size: large;
+    border-radius: 10px;
+    display: inline;
+}
+
+#creator{
+    position: absolute;
+    width: 100%;
+    margin-top: 700px;
+    background-color: rgb(252, 241, 95);
+    line-height: 2;
+    color: black;
+}

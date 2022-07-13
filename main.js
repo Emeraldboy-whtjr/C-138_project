@@ -82,11 +82,11 @@ function reset(){
 
 //function midline draw a line in center
 function midline(){
-    for(i=0;i<480;i+=10) {
+    for(i=0;i<600;i+=10) {
     var y = 0;
     fill("white");
     stroke(0);
-    rect(width/2,y+i,10,480);
+    rect(width/2,y+i,10,600);
     }
 }
 

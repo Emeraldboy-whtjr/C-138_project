@@ -18,14 +18,34 @@
         <center>
             <div class="header">
                 <h1>Ping Pong Tournament</h1>
-                <button class="btn btn-warning" data-toggle = "modal" data-target = "myModal">Instructions</button>
+                <button class="btn btn-warning" data-toggle = "modal" data-target = "#myModal">Instructions</button>
             </div>
             <br>
             <button id="startBtn" class="btn btn-success " onclick="startGame()">START GAME!</button>
             <h3 id="status" class="btn btn-info">Status:</h3>
+            <h3 id="restart_btn" class="btn btn-warning" onclick="restart()">Restart</h3>
+            <br>
+            
+            <br>
             <div id="CVHolder">
 
             </div>
+
+            </div><div id="myModal" class="modal fade">
+                <div class="modal-dialog" style="width: 90%; ">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">&times;</button>
+                      <h4 style="font-weight: bold;">Instructions to play the game</h4>
+                    </div>
+                    <div class="modal-body">
+                      <h2>Move around your mouse to move your paddle(red) and hit the ball.</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h4 id="creator">Creator :- Aayush Roy</h4>
             
         </center>
 
